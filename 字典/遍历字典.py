@@ -1,16 +1,20 @@
-dict1 = {"a":1,"b":2,"c":3,"d":4}
+# dict1 = {"a":1,"b":2,"c":3,"d":4}
+list1 = [{'书名': '西游记', '作者': '吴承恩', '出版社': '人民出版社', '价格': '11.00'}, {'书名': '三国演义', '作者': '罗贯中', '出版社': '人民出版社', '价格': '22.00'}, {'书名': '水浒传', '作者': '施耐庵', '出版社': '人民出版社', '价格': '33.00'}, {'书名': '红楼梦', '作者': '曹雪芹', '出版社': '人民出版社', '价格': '14.00'}]
 
+# a = input("请输入书名：")
+# if a in list1["书名"]:
+# for 
 
 #遍历字典中所有的键
-for key in dict1.keys():
-    print(key)
+# for key in dict1.keys():
+#     print(key)
     
 
 #遍历字典中所有的值
-for values in dict1.values():
-    print(values)
+# for values in dict1.values():
+#     print(values)
         
     
 #遍历字典中所有的键值对
-for key,values in dict1.items():
-    print(key,values)
+# for key,values in dict1.items():
+#     print(key,values)
