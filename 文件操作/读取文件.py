@@ -10,6 +10,7 @@ content = file.read()   #表示取多少个字符,不填表示全部
 # content = file.readline()    #一次只读取一行
 # content = file.readlines()      #把所有行一次性都获取到，已列表形式返回
 print(content)
+file.close()
 
 # for i in file:
 #     print(file.readlines())

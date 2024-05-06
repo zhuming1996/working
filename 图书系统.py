@@ -22,6 +22,8 @@ class LibraryManagementSystem():
         return self.list1
     
     def againcolimn(self):
+        '''
+        '''
         LibraryManagementSystem.column(self)
         while True:
             con = int(input("录入成功,是否继续录入图书:\n1 继续添加\n2 退出\n"))
@@ -33,15 +35,18 @@ class LibraryManagementSystem():
     
     def search(self):
         a = input("请输入书名：")
-        if a in self.list1["书名"]:
-            return 
-        else:
-            print("kong")
+        for i in self.list1:
+            if a in i:
+                print(i)
+        return i
+        # else:
+        #     print("不存在")
+        # return i
         
 
 li = LibraryManagementSystem()
-
-print(li.search())
+lia  = li.search()
+print(lia)
 
             
         
