@@ -115,5 +115,32 @@ list1 = [1,2,3,1]
 # li = Solution()
 # ma = li.isPalindrome(111)
 # print(ma)
+# ransomNote = 'aksisnm'
+# list1 = [*ransomNote]
+# print(list1)
+# a = min('addfbB')
+# print(a)
+# list1 = [[1,3],[3,4],[4,6]]
+# for n in list1:
+#     s2 = n[0]
+#     s1 = min(s2)
+#     # s1 = list1.index(min)
+#     print(s1)
 
+# from itertools import combinations
+# list1 = [-1,2,1,-4]
+# list2 = []
+# for n in combinations(list1,3):
+#     list2.append(n)
+# print(list2)
 
+# list1 = []
+# dict1 = {1:2,2:3,3:4}
+# for i in dict1.keys():
+#     list1.append(i)
+# print(dict1[min(list1)])
+# print(list1)
+
+s1 = '()'
+for i in s1:
+    print(i)
