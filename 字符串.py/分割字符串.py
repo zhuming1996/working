@@ -1,5 +1,8 @@
 
 
 #使用split()方法进行字符串的分割
-str1 = "qnh1hjk1aju1hyu"
-print(str1.split(sep= "1"))
+str1 = "Hello World"
+s1 = str1.split(" ")
+
+print(len(s1[-1]))
+

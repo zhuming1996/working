@@ -141,6 +141,27 @@ list1 = [1,2,3,1]
 # print(dict1[min(list1)])
 # print(list1)
 
-s1 = '()'
-for i in s1:
-    print(i)
+# s1 = '()'
+# for i in s1:
+#     print(i)
+
+
+# a = 'sadd'
+# b = 'sd'
+# if b in a:
+#     s1 = a.index(b[0])
+#     print(type(s1))
+nums = [5,7,7,8,8,10]
+target = 4
+list1 = []
+list2 = []
+for index,value in enumerate(nums):
+    list1.append((index,value))
+
+for m in list1:
+    if m[1] == target:
+        list2.append(m[0])
+if len(list2) == 0:
+    list2 = [-1,-1]
+print(list2)
+print(list1)
