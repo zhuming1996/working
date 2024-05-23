@@ -1,4 +1,5 @@
 class LibraryManagementSystem():
+        
     list1 = [{'书名': '西游记', '作者': '吴承恩', '出版社': '人民出版社', '价格': '11.00'}, {'书名': '三国演义', '作者': '罗贯中', '出版社': '人民出版社', '价格': '22.00'}, {'书名': '水浒传', '作者': '施耐庵', '出版社': '人民出版社', '价格': '33.00'}, {'书名': '红楼梦', '作者': '曹雪芹', '出版社': '人民出版社', '价格': '14.00'}]
     
     def addBooks(self):
@@ -38,10 +39,9 @@ class LibraryManagementSystem():
         for i in self.list1:
             if a in i:
                 print(i)
+            else:
+                print("不存在")
         return i
-        # else:
-        #     print("不存在")
-        # return i
         
 
 li = LibraryManagementSystem()

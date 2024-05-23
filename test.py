@@ -289,8 +289,8 @@
 # print(type(s2))
 
 #浅拷贝
-import copy
-a = [1,2,3,[4,5,6],7,8]
+# import copy
+# a = [1,2,3,[4,5,6],7,8]
 # b = copy.copy(a)
 # print(id(a))
 # print(b,id(b))
